@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const RickMorty = () => {
-  const [data, setData] = useState({});
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     fetch("https://rickandmortyapi.com/api/character")
@@ -11,6 +11,7 @@ const RickMorty = () => {
   return (
     <>
       <h1>Rick and Morty</h1>
+      {console.log(data)}
     </>
   );
 };
