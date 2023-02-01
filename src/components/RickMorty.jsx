@@ -33,6 +33,57 @@ const RickMorty = () => {
                 <br></br>
                 Especie:
                 {data.results[0].species}
+                <br></br>
+                Origen:
+                {data.results[0].origin.name}
+              </p>
+              <a href="/" className="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src={data.results[0].image}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">{data.results[0].name}</h5>
+              <p className="card-text">
+                Condición:
+                {data.results[0].status}
+                <br></br>
+                Especie:
+                {data.results[0].species}
+                <br></br>
+                Origen:
+                {data.results[0].origin.name}
+              </p>
+              <a href="/" className="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src={data.results[0].image}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">{data.results[0].name}</h5>
+              <p className="card-text">
+                Condición:
+                {data.results[0].status}
+                <br></br>
+                Especie:
+                {data.results[0].species}
+                <br></br>
+                Origen:
+                {data.results[0].origin.name}
               </p>
               <a href="/" className="btn btn-primary">
                 Go somewhere
