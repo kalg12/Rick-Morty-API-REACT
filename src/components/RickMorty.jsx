@@ -26,10 +26,13 @@ const RickMorty = () => {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Title</h5>
+              <h5 className="card-title">{data.results[0].name}</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Condición:
+                {data.results[0].status}
+                <br></br>
+                Especie:
+                {data.results[0].species}
               </p>
               <a href="/" className="btn btn-primary">
                 Go somewhere
